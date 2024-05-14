@@ -1,0 +1,55 @@
+/* todo hero */
+.section-hero {
+  background-image: linear-gradient(
+      to left,
+      rgb(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/database/img/WhatsApp\ Image\ 2023-10-27\ at\ 18.15.36.jpeg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-hero-main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow-x: hidden;
+}
+
+.hero-text H4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+  text-align: center;
+}
+
+.section-hero-main h1 {
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.typing-2 {
+  text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color),
+    0 0 30px var(--main-color);
+}
+
+.hero-btn {
+  box-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color),
+    0 0 30px var(--main-color);
+}
+
+.type {
+  color: var(--main-color);
+  text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color),
+    0 0 30px var(--main-color);
+}
